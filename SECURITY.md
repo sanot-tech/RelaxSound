@@ -48,9 +48,15 @@ We provide security patches for the following versions:
 
 If you discover a security vulnerability, **do not** create a public GitHub issue. Please report it privately through one of the following channels:
 
-### Method 1: Email (Preferred)
+### Method 1: GitHub Private Report (Preferred)
 
-Send an email to **224272286+Biopasks@users.noreply.github.com** with the following details:
+Use GitHub's [Private Vulnerability Reporting](https://docs.github.com/en/code-security/security-advisories/guidance-on-reporting-and-writing-information-about-vulnerabilities/privately-reporting-a-security-vulnerability) feature:
+
+1. Go to the repository's **Security** tab
+2. Click **Report a vulnerability**
+3. Fill in the details
+
+You can also mention **@Sanot** in a new issue for non-critical reports.
 
 ```
 Subject: [Security Vulnerability] <Brief Description>
@@ -68,21 +74,9 @@ Body:
 - **Affected Components**: Files, endpoints, or modules affected
 ```
 
-### Method 2: PGP Encrypted Email
+### Method 2: GitHub Issue with @Sanot
 
-For critical vulnerabilities, you may encrypt your report using our PGP key:
-
-```
-Key ID: 0x1234567890ABCDEF
-Fingerprint: ABCD 1234 5678 90AB CDEF 1234 5678 90AB CDEF 1234
-```
-
-### Method 3: Private Vulnerability Reporting
-
-Use GitHub's [Private Vulnerability Reporting](https://docs.github.com/en/code-security/security-advisories/guidance-on-reporting-and-writing-information-about-vulnerabilities/privately-reporting-a-security-vulnerability) feature:
-
-1. Go to the repository's **Security** tab
-2. Click **Report a vulnerability**
+For non-critical concerns, open an issue and mention **@Sanot** for visibility.
 3. Fill out the form with the details of the vulnerability
 
 ### Response Times
@@ -188,7 +182,7 @@ Dependencies with the following characteristics are prohibited:
 
 ## Contact
 
-- **Security Issues**: [224272286+Biopasks@users.noreply.github.com](mailto:224272286+Biopasks@users.noreply.github.com)
+- **Security Issues**: [@Sanot](https://github.com/Sanot) via GitHub Issues
 
 ---
 

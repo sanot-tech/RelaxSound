@@ -38,7 +38,7 @@
 
 ## Code of Conduct
 
-This project adheres to the [Contributor Covenant](CODE_OF_CONDUCT.md). By participating, you are expected to uphold this code. Please report unacceptable behavior to 224272286+Biopasks@users.noreply.github.com.
+This project adheres to the [Contributor Covenant](CODE_OF_CONDUCT.md). By participating, you are expected to uphold this code. Please report unacceptable behavior to @Sanot.
 
 ---
 
@@ -495,7 +495,7 @@ export async function playSound(
 
 **Do not open public issues for security vulnerabilities.** Instead, follow our [Security Policy](SECURITY.md):
 
-1. Email 224272286+Biopasks@users.noreply.github.com
+1. Mention @Sanot in a GitHub issue
 2. Include detailed description and reproduction steps
 3. Expect acknowledgment within 24 hours
 4. We will coordinate disclosure timeline
@@ -519,8 +519,8 @@ export async function playSound(
 |---------|---------|---------------|
 | [GitHub Discussions](https://github.com/Biopasks/Relax-Sound/discussions) | General questions | < 24h |
 | [Stack Overflow](https://stackoverflow.com/questions/tagged/relax-sound) | Technical questions | Community |
-| 224272286+Biopasks@users.noreply.github.com | Security issues | < 24h |
-| 224272286+Biopasks@users.noreply.github.com | Code of conduct | < 48h |
+| @Sanot | Security issues | < 24h |
+| @Sanot | Code of conduct | < 48h |
 
 ---
 
