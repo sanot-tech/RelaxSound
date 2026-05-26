@@ -415,5 +415,13 @@ Distributed under the MIT License. See [LICENSE](LICENSE) for more information.
 <p align="center">
   <b>Built with ❤️ by <a href="https://github.com/sanot-tech">Sanot</a></b>
   <br/>
+  <sub>If you find this project valuable, please consider <a href="https://github.com/sanot-tech/RelaxSound/stargazers">starring ⭐</a> the repository.</sub>
+  <br/>
   <sub>Copyright © 2026 Sanot. All rights reserved.</sub>
+</p>
+
+<p align="center">
+  <a href="#relax-sound">
+    <img src="https://img.shields.io/badge/⬅️%20back%20to%20top-181717?logo=github" alt="Back to top">
+  </a>
 </p>
