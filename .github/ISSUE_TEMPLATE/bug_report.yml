@@ -1,0 +1,77 @@
+name: 🐛 Bug Report
+description: Report a bug or unexpected behavior
+title: "[Bug]: "
+labels: ["bug", "needs-triage"]
+assignees: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## 🐛 Bug Report
+        Thanks for reporting! Please provide as much detail as possible.
+
+  - type: checkboxes
+    id: prerequisites
+    attributes:
+      label: Prerequisites
+      options:
+        - label: I have searched existing issues and this is not a duplicate
+          required: true
+        - label: I am running the latest version
+          required: true
+        - label: I have confirmed this bug is reproducible
+          required: true
+
+  - type: dropdown
+    id: component
+    attributes:
+      label: Affected Component
+      options:
+        - Player / Audio
+        - Timer
+        - UI / Visuals
+        - Settings
+        - Mobile (Capacitor)
+        - Other
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Bug Description
+      placeholder: When I click X, Y happens instead of Z...
+    validations:
+      required: true
+
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Steps to Reproduce
+      placeholder: |
+        1. Go to '...'
+        2. Click on '...'
+        3. See error
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected Behavior
+    validations:
+      required: true
+
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      value: |
+        - OS: [e.g., iOS 18, Android 14, Windows 11]
+        - Browser: [e.g., Chrome 125, Safari 17.5]
+        - Device: [e.g., iPhone 15, Samsung S24, Desktop]
+        - Version: [e.g., v1.0.0]
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: Log Output
+      render: shell
