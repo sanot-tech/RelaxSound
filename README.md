@@ -102,15 +102,15 @@
 ### Screenshots
 
 <p align="center">
-  <img src="docs/assets/screenshot-player.jpg" alt="Player Screen" width="240">
-  <img src="docs/assets/screenshot-mixer.jpg" alt="Sound Mixer" width="240">
-  <img src="docs/assets/screenshot-visualizer.jpg" alt="3D Visualizer" width="240">
+  <img src="screenshots/index.png" alt="Home Screen" width="240">
+  <img src="screenshots/player.png" alt="Player Screen" width="240">
+  <img src="screenshots/sound-selection.png" alt="Sound Selection" width="240">
 </p>
 
 <p align="center">
-  <img src="docs/assets/screenshot-timer.jpg" alt="Timer Screen" width="240">
-  <img src="docs/assets/screenshot-library.jpg" alt="Sound Library" width="240">
-  <img src="docs/assets/screenshot-vinyl.jpg" alt="Vinyl UI" width="240">
+  <img src="screenshots/settings.png" alt="Settings" width="240">
+  <img src="screenshots/favorites.png" alt="Favorites" width="240">
+  <img src="screenshots/history.png" alt="History" width="240">
 </p>
 
 ---
@@ -400,7 +400,7 @@ A: Place audio files in `public/audio/` and register them in the sound library c
 
 ### Professional Support
 
-For enterprise support, custom integrations, and SLAs, please contact us at support@relaxsound.app or visit [relaxsound.app/support](https://relaxsound.app/support).
+For enterprise support, custom integrations, and SLAs, please contact us at [korobgreenfield@gmail.com](mailto:korobgreenfield@gmail.com).
 
 ---
 
