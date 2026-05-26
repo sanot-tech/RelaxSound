@@ -29,18 +29,11 @@ const SoundSelection: React.FC = () => {
 
   const { triggerHapticFeedback, isTestModeEnabled, setIsTestModeEnabled } = useSettings();
   const { backgroundShimmerGlow } = usePowerfulAnimations();
-  const { preloadCommon, isPreloading } = useAudioPreloader(); // Use the preloader hook with common sounds only
+  const { isPreloading } = useAudioPreloader();
 
   const [isTimerButtonTransparent, setIsTimerButtonTransparent] = useState(false);
 
   const { highlightedCardIndex, startCasinoEffect, stopCasinoEffect } = useCasinoCardEffect();
-
-  // Preload only common sounds on component mount for faster initial experience
-  useEffect(() => {
-    if (preloadCommon) {
-      preloadCommon();
-    }
-  }, [preloadCommon]);
 
   useEffect(() => {
     const hiddenUntil = localStorage.getItem('soundSelectionTimerButtonHiddenUntil');
